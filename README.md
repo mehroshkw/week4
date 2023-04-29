@@ -1,16 +1,26 @@
-# week_4_bytwise
+Note:
+I have only added code files here. I have uploaded complete project on GitHub Separately.
+To see complete project code visit this link:
+https://github.com/mehroshkw/week4
 
-A new Flutter project.
 
-## Getting Started
+Flutter animation project
 
-This project is a starting point for a Flutter application.
+This project is a simple demonstration of using both implicit and explicit animation in Flutter. In this project, we have also used Rive for creating explicit animation.
 
-A few resources to get you started if this is your first Flutter project:
+Project Description
+The project contains a simple interface with two buttons, each triggering a different animation. The first button triggers an implicit animation, which animates the container's color, size, and border radius properties. The second button triggers an explicit animation created using Rive, which animates an SVG image of a bouncing ball.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dependencies
+The following dependencies were used in this project:
+
+rive: ^0.10.3 for creating explicit animations with Rive.
+flutter_animate: ^4.1.0 creating explicit animations
+
+References
+The following references were used in creating this project:
+
+Flutter Implicit Animations
+Flutter Rive Animation
+Rive Official Documentation
